@@ -31,7 +31,7 @@ resource "aws_eks_cluster" "eks" {
     endpoint_private_access     = false
     endpoint_public_access      = true
 
-    subnet_ids = [ aws_subnet.private_zone1, aws_subnet.private_zone2 ]
+    subnet_ids = [ aws_subnet.private_zone1.id, aws_subnet.private_zone2.id ]
     
   }
   access_config {
