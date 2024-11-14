@@ -1,6 +1,6 @@
 # AWS-EKS-Kubernetes
 
-## Changes from EKS 1.29 to 1.30
+## Changes from EKS 1.30 to 1.31
 
 - AWS Load Balancer controller now requires `vpcId`.
 - There is no longer a default storage class in EKS, so you need to explicitly set `storageClassName: gp2`.
